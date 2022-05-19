@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments_1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="509"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ilon Mask" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-Qf-sn5">
+                    <rect key="frame" x="15" y="8" width="174" height="171"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="171" id="hGX-sa-JKO"/>
+                        <constraint firstAttribute="width" constant="174" id="paO-xv-NHy"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ilon Mask" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa1-x1-Aza">
+                    <rect key="frame" x="197" y="8" width="178" height="37"/>
+                    <color key="backgroundColor" red="0.5647059083" green="0.87450981139999995" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="zDc-Xa-m7S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28.06.1971" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVz-8X-jCq">
+                    <rect key="frame" x="197" y="70" width="178" height="37"/>
+                    <color key="backgroundColor" red="0.5647059083" green="0.87450981139999995" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="xFL-9h-nJN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pretory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ke1-ys-Ql1">
+                    <rect key="frame" x="197" y="137" width="178" height="37"/>
+                    <color key="backgroundColor" red="0.5647059083" green="0.87450981139999995" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="img-Gm-QmK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MRa-q3-R3Q">
+                    <rect key="frame" x="10" y="210" width="375" height="143"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="143" id="YeG-1K-RgW"/>
+                        <constraint firstAttribute="width" constant="375" id="ZJR-cF-HPc"/>
+                    </constraints>
+                    <string key="text">Американский предприниматель, инженер и миллиардер. Он является основателем, генеральным директором и главным инженером компании SpaceX; он также является владельцем «Твиттер»; инвестором, генеральным директором и архитектором продукта компании Tesla; основателем The Boring Company; и соучредителем Neuralink и OpenAI. 7 января 2021 года, с состоянием по оценочным данным в 185 млрд $, впервые стал богатейшим человеком планеты, сместив на второе место основателя Amazon Джеффа Безоса.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rVz-8X-jCq" firstAttribute="leading" secondItem="sIj-Qf-sn5" secondAttribute="trailing" constant="8" id="2h3-tr-Dmp"/>
+                <constraint firstItem="rVz-8X-jCq" firstAttribute="top" secondItem="oa1-x1-Aza" secondAttribute="bottom" constant="25" id="2qU-Kr-M9a"/>
+                <constraint firstItem="oa1-x1-Aza" firstAttribute="leading" secondItem="sIj-Qf-sn5" secondAttribute="trailing" constant="8" id="D5Y-f6-KKo"/>
+                <constraint firstItem="sIj-Qf-sn5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="FXx-dY-p0c"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oa1-x1-Aza" secondAttribute="trailing" constant="20" id="ULX-NB-3U4"/>
+                <constraint firstItem="oa1-x1-Aza" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="W4m-QG-d1Y"/>
+                <constraint firstItem="Ke1-ys-Ql1" firstAttribute="top" secondItem="rVz-8X-jCq" secondAttribute="bottom" constant="30" id="b6S-k1-Mem"/>
+                <constraint firstItem="sIj-Qf-sn5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="cL0-dT-SHQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MRa-q3-R3Q" secondAttribute="trailing" constant="10" id="dNx-XD-dkx"/>
+                <constraint firstItem="MRa-q3-R3Q" firstAttribute="top" secondItem="sIj-Qf-sn5" secondAttribute="bottom" constant="31" id="jv6-tY-Hpi"/>
+                <constraint firstItem="MRa-q3-R3Q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="nJg-r6-kJD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ke1-ys-Ql1" secondAttribute="trailing" constant="20" id="nmC-IQ-nng"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rVz-8X-jCq" secondAttribute="trailing" constant="20" id="oaU-Ad-Fff"/>
+                <constraint firstItem="Ke1-ys-Ql1" firstAttribute="leading" secondItem="sIj-Qf-sn5" secondAttribute="trailing" constant="8" id="sN9-qU-IRe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="rVz-8X-jCq" id="fjT-tt-tU9"/>
+                <outlet property="infoText" destination="MRa-q3-R3Q" id="EKp-Fb-22H"/>
+                <outlet property="myImage" destination="sIj-Qf-sn5" id="kh6-LE-o0B"/>
+                <outlet property="nameLabel" destination="oa1-x1-Aza" id="Oty-db-ybl"/>
+                <outlet property="townLabel" destination="Ke1-ys-Ql1" id="9m9-c2-Z2g"/>
+            </connections>
+            <point key="canvasLocation" x="306.52173913043481" y="-188.72282608695653"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Ilon Mask" width="2560" height="1781"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
